@@ -23,7 +23,7 @@
                     </md-button>
                     <ul class="dropdown-menu dropdown-with-icons">
                       <li>
-                        <a href="/">
+                        <a href="#/">
                           <i class="material-icons">layers</i>
                           <p>All Components</p>
                         </a>

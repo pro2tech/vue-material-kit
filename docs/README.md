@@ -1,6 +1,7 @@
 # Short Description and Usage
 
-Vue Material Dashboard PRO is a beautiful resource built over [Vue Material](https://vuematerial.io/) and [Vuejs](https://vuejs.org/v2/guide/). It will help you get started developing dashboards in no time. Vue Material Dashboard PRO is the official Vuejs version of the Original Material Dashboard PRO.  
+Vue Material Kit is a beautiful resource built over [Vue Material](https://vuematerial.io/) and [Vuejs](https://vuejs.org/v2/guide/) with a fresh, new design inspired by Google's material design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.
+. Vue Material Kit is the official Vuejs version of the Original Material Kit.  
 
 ## Getting Started
 - Install Nodejs from [Nodejs Official Page](https://nodejs.org/en/)
@@ -18,8 +19,8 @@ You can also run additional npm tasks such as
 
 We used the latest 3.x [Vue CLI](https://github.com/vuejs/vue-cli) which aims to reduce project configuration
 to as little as possible. Almost everything is inside `package.json` + some other related files such as
-`.babelrc`, `.eslintrc.js` and `.postcssrc.js`
+`babel.config.js`, `.eslintrc.js`, `.postcssrc.js`, `.browserslistrc`
 
 ## Element-UI
 
-  Vue Now Material Dashboard also uses [element-ui](https://vuematerial.io/ui-elements/elevation) components and restyles them to achieve consistent and homogenous interface with the existing custom components and general UI of the dashboard.
+  Vue Material Kit also uses [element-ui](https://vuematerial.io/ui-elements/elevation) components and restyles them to achieve consistent and homogenous interface with the existing custom components and general UI of the kit.

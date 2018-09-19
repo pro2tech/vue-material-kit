@@ -1,6 +1,6 @@
 # Modal
 
-If you want to display some content on demand in a very subtle way, the Vue Material Dashboard Pro Modal is the perfect choice for this. We created custom modal component and you can easily use it like this:
+If you want to display some content on demand in a very subtle way, the Vue Material Kit Modal is the perfect choice for this. We created custom modal component and you can easily use it like this:
 
 ```js
 import {Modal} from '@/components'

@@ -155,11 +155,22 @@
                 <h3>Thank you for supporting us!</h3>
               </div>
             </div>
-
-            <md-button class="md-twitter"><i class="fab fa-twitter"></i>Tweet</md-button>
-            <md-button class="md-facebook"><i class="fab fa-facebook-square"></i> Share</md-button>
-            <md-button class="md-google"><i class="fab fa-google-plus"></i> Share</md-button>
-            <md-button class="md-github"><i class="fab fa-github"></i> Star</md-button>
+            <social-sharing :url="shareUrl" inline-template
+                            title="Vue Material Kit - Material Design UI Kit for Vue.js"
+                            hashtags="vuejs, ui, kit, vuematerial" twitter-user="creativetim">
+              <div class="centered-buttons">
+                <network network="twitter" class="md-button md-twitter">
+                  <i class="fab fa-twitter"></i>Tweet
+                </network>
+                <network network="facebook" class="md-button md-facebook">
+                  <i class="fab fa-facebook-square"></i> Share
+                </network>
+                <network network="googleplus" class="md-button md-google">
+                  <i class="fab fa-google-plus"></i> Share
+                </network>
+                <md-button class="md-github" href="https://github.com/creativetimofficial/vue-material-kit" target="_blank"><i class="fab fa-github"></i> Star</md-button>
+              </div>
+            </social-sharing>
           </div>
         </div>
       </div>
@@ -170,6 +181,7 @@
 </template>
 
 <script>
+import Vue from "vue";
 import BasicElements from "./components/BasicElementsSection";
 import Navigation from "./components/NavigationSection";
 import SmallNavigation from "./components/SmallNavigationSection";
@@ -179,6 +191,9 @@ import Notifications from "./components/NotificationsSection";
 import TypographyImages from "./components/TypographyImagesSection";
 import JavascriptComponents from "./components/JavascriptComponentsSection";
 import { LoginCard } from "@/components";
+import SocialSharing from "vue-social-sharing";
+
+Vue.use(SocialSharing);
 
 export default {
   components: {
@@ -216,7 +231,8 @@ export default {
     return {
       firstname: null,
       email: null,
-      password: null
+      password: null,
+      shareUrl: "https://www.creative-tim.com/product/vue-material-kit"
     };
   },
   computed: {

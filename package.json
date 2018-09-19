@@ -9,6 +9,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "dev": "npm run serve",
+    "deploy": "npm run build && cd docs && npm run build && cd .. && sudo gh-pages -d dist",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev"
   },
   "dependencies": {

@@ -125,9 +125,22 @@
 .sharing-area{
     margin-top: 80px;
 }
-.sharing-area .md-button{
-    margin: 15px 4px 0;
+.sharing-area span.md-button {
     color: #FFFFFF;
+    font-size: .75rem;
+    padding: 12px 30px;
+}
+
+.sharing-area .md-button {
+  margin: 15px 4px 0;
+}
+
+.sharing-area span.md-button i {
+  font-size: 1.1rem !important;
+  height: 17px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
 }
 
 #navbar{
