@@ -19,7 +19,7 @@ module.exports = {
     nav: [
       { text: 'v1.0.0', link: '/#' },
     ],
-    repo: 'creativetimofficial/ct-vue-material-kit',
+    repo: 'creativetimofficial/vue-material-kit',
     sidebar: [
       {
         title: 'General Information',
