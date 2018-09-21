@@ -48,6 +48,7 @@ module.exports = {
           '/component-docs/modal',
           '/component-docs/pagination',
           '/component-docs/tooltips',
+          '/component-docs/mobile-menu',
           '/component-docs/badge',
           '/component-docs/material-icons',
           '/component-docs/toolbar'
