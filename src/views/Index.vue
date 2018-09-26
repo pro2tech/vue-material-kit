@@ -1,12 +1,19 @@
 <template>
   <div class="wrapper">
-    <parallax class="page-header header-filter clear-filter purple-filter" :style="headerStyle">
+    <parallax class="page-header header-filter" :style="headerStyle">
       <div class="md-layout">
         <div class="md-layout-item">
-          <div class="brand">
-            <h1>Vue Material Kit.</h1>
-            <h3>Badass VueJs Kit based on Material Design.</h3>
+          <div class="image-wrapper">
+            <img :src="leaf4" alt="leaf4" class="leaf4" v-show="leafShow">
+            <img :src="leaf3" alt="leaf3" class="leaf3" v-show="leafShow">
+            <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow">
+            <img :src="leaf1" alt="leaf1" class="leaf1" v-show="leafShow">
+            <div class="brand">
+              <h1>Vue Material Kit</h1>
+              <h3>A Badass Vue.js UI Kit made with Material Design.</h3>
+            </div>
           </div>
+
         </div>
       </div>
     </parallax>
@@ -56,7 +63,7 @@
       <div class="section">
         <div class="container text-center">
           <div class="md-layout">
-              <div class="md-layout-item md-size-66 ml-auto mr-auto text-center">
+              <div class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center">
                   <h2>Completed with examples</h2>
                   <h4>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful kit.</h4>
               </div>
@@ -215,7 +222,23 @@ export default {
   props: {
     image: {
       type: String,
-      default: require("@/assets/img/bg2.jpg")
+      default: require("@/assets/img/vue-mk-header.jpg")
+    },
+    leaf4: {
+      type: String,
+      default: require("@/assets/img/leaf4.png")
+    },
+    leaf3: {
+      type: String,
+      default: require("@/assets/img/leaf3.png")
+    },
+    leaf2: {
+      type: String,
+      default: require("@/assets/img/leaf2.png")
+    },
+    leaf1: {
+      type: String,
+      default: require("@/assets/img/leaf1.png")
     },
     signup: {
       type: String,
@@ -235,8 +258,18 @@ export default {
       firstname: null,
       email: null,
       password: null,
-      shareUrl: "https://www.creative-tim.com/product/vue-material-kit"
+      shareUrl: "https://www.creative-tim.com/product/vue-material-kit",
+      leafShow: false
     };
+  },
+  methods: {
+    leafActive() {
+      if (window.innerWidth < 768) {
+        this.leafShow = false;
+      } else {
+        this.leafShow = true;
+      }
+    }
   },
   computed: {
     headerStyle() {
@@ -249,6 +282,13 @@ export default {
         backgroundImage: `url(${this.signup})`
       };
     }
+  },
+  mounted() {
+    this.leafActive();
+    window.addEventListener("resize", this.leafActive);
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.leafActive);
   }
 };
 </script>
@@ -262,6 +302,65 @@ export default {
 @media all and (min-width: 991px) {
   .btn-container {
     display: flex;
+  }
+}
+
+.leaf1,
+.leaf3,
+.leaf4,
+.leaf2 {
+  position: absolute;
+  z-index: 9;
+}
+
+.leaf4 {
+  right: 172px;
+  top: -122px;
+  width: 17%;
+  width: 32%;
+  transform: rotate(-83deg);
+}
+
+.leaf3 {
+  top: 21px;
+  right: -69px;
+  left: auto;
+  width: 24%;
+  transform: rotate(-13deg);
+}
+
+.leaf2 {
+  width: 25%;
+  left: 170px;
+  top: -28px;
+  transform: rotate(90deg);
+}
+
+.leaf1 {
+  transform: rotate(0deg);
+  right: auto;
+  top: 25px;
+  width: 15%;
+  left: -11px;
+}
+
+@media all and (max-width: 768px) {
+  .index-page .image-wrapper /deep/ .brand {
+    h1 {
+      font-size: 4.3rem;
+    }
+
+    h3 {
+      max-width: 500px;
+      line-height: normal;
+      font-size: 1.7rem;
+    }
+  }
+}
+
+@media all and (max-width: 450px) {
+  .index-page .image-wrapper /deep/ .brand {
+    max-width: 300px;
   }
 }
 </style>
