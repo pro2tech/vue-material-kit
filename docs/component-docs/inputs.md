@@ -33,4 +33,15 @@ To use the custom form group inputs you don't need to import the custom made com
 ```
 :::
 
+## Colors
+
+If you want to change the color of the inputs focus you have just to add one of the classes `has-danger`, `has-white`, `has-rose`, `has-green`, `has-warning`, `has-info` on the component parent tag like in the example below. By default the color is `purple`.
+
+```html
+  <md-field class="has-danger">
+    <label>Initial Value</label>
+    <md-input v-model="initial"></md-input>
+  </md-field>
+```
+
 > Note: For more details about the all inputs that you can use please see the **Input & Textarea** section from [vuematerial.io](https://vuematerial.io/components/input)
