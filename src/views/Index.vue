@@ -154,7 +154,7 @@
         		<div class="md-layout-item md-size-50 md-small-size-100 mx-auto">
               <div class="btn-container">
                 <md-button href="https://www.creative-tim.com/product/vue-material-kit-pro?ref=utp-vmk-demos" class="md-button md-success md-lg md-upgrade disabled" target="_blank"><md-icon>unarchive</md-icon>Vue Material Kit PRO</md-button>
-                <md-button href="https://www.creative-tim.com/product/vue-material-dashboard-pro?ref=utp-vmk-demos" class="md-button md-success md-lg md-upgrade" target="_blank"><md-icon>unarchive</md-icon>Vue Material Dashboard PRO</md-button>
+                <md-button href="https://www.creative-tim.com/product/vue-material-dashboard-pro?ref=utp-vmd-demos" class="md-button md-success md-lg md-upgrade" target="_blank"><md-icon>unarchive</md-icon>Vue Material Dashboard PRO</md-button>
               </div>
         		</div>
           </div>
@@ -302,65 +302,6 @@ export default {
 @media all and (min-width: 991px) {
   .btn-container {
     display: flex;
-  }
-}
-
-.leaf1,
-.leaf3,
-.leaf4,
-.leaf2 {
-  position: absolute;
-  z-index: 9;
-}
-
-.leaf4 {
-  right: 172px;
-  top: -122px;
-  width: 17%;
-  width: 32%;
-  transform: rotate(-83deg);
-}
-
-.leaf3 {
-  top: 21px;
-  right: -69px;
-  left: auto;
-  width: 24%;
-  transform: rotate(-13deg);
-}
-
-.leaf2 {
-  width: 25%;
-  left: 170px;
-  top: -28px;
-  transform: rotate(90deg);
-}
-
-.leaf1 {
-  transform: rotate(0deg);
-  right: auto;
-  top: 25px;
-  width: 15%;
-  left: -11px;
-}
-
-@media all and (max-width: 768px) {
-  .index-page .image-wrapper /deep/ .brand {
-    h1 {
-      font-size: 4.3rem;
-    }
-
-    h3 {
-      max-width: 500px;
-      line-height: normal;
-      font-size: 1.7rem;
-    }
-  }
-}
-
-@media all and (max-width: 450px) {
-  .index-page .image-wrapper /deep/ .brand {
-    max-width: 300px;
   }
 }
 </style>
