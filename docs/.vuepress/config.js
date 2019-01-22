@@ -17,7 +17,7 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: 'v1.0.0', link: '/#' },
+      { text: 'v1.0.1', link: '/#' },
     ],
     repo: 'creativetimofficial/vue-material-kit',
     sidebar: [
