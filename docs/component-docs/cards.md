@@ -76,13 +76,13 @@ module.exports = {
   <login-card header-color="green">
     <h4 slot="title" class="title">Log in</h4>
     <template slot="buttons">
-      <md-button to="#facebook" class="md-just-icon md-simple md-white">
+      <md-button href="#facebook" class="md-just-icon md-simple md-white">
         <i class="fab fa-facebook-square"></i>
       </md-button>
-      <md-button to="#twitter" class="md-just-icon md-simple md-white">
+      <md-button href="#twitter" class="md-just-icon md-simple md-white">
         <i class="fab fa-twitter"></i>
       </md-button>
-      <md-button to="#google" class="md-just-icon md-simple md-white">
+      <md-button href="#google" class="md-just-icon md-simple md-white">
         <i class="fab fa-google-plus-g"></i>
       </md-button>
     </template>
