@@ -18,12 +18,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
@@ -54,12 +54,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
@@ -82,12 +82,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
@@ -110,12 +110,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
@@ -139,12 +139,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
@@ -168,12 +168,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
@@ -197,12 +197,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
@@ -226,12 +226,12 @@ We re-styled the default toolbar from vuematerial.io and you can easily use this
 
       <div class="md-collapse">
         <md-list>
-          <md-list-item to="#dashboard">
+          <md-list-item href="#dashboard">
             <i class="material-icons">dashboard</i>
             <p class="hidden-lg hidden-md">Dashboard</p>
           </md-list-item>
 
-          <md-list-item to="#user">
+          <md-list-item href="#user">
             <i class="material-icons">person</i>
             <p class="hidden-lg hidden-md">Profile</p>
           </md-list-item>
