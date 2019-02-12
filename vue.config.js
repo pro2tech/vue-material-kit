@@ -6,5 +6,5 @@ module.exports = {
       }
     }
   },
-  baseUrl: "/vue-material-kit/"
+  publicPath: "/vue-material-kit/"
 };
