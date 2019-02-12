@@ -246,9 +246,13 @@
                 <h3>Thank you for supporting us!</h3>
               </div>
             </div>
-            <social-sharing :url="shareUrl" inline-template
-                            title="Vue Material Kit - Material Design UI Kit for Vue.js"
-                            hashtags="vuejs, ui, kit, vuematerial" twitter-user="creativetim">
+            <social-sharing
+              :url="shareUrl"
+              inline-template
+              title="Vue Material Kit - Material Design UI Kit for Vue.js"
+              hashtags="vuejs, ui, kit, vuematerial"
+              twitter-user="creativetim"
+            >
               <div class="centered-buttons">
                 <network network="twitter" class="md-button md-twitter">
                   <i class="fab fa-twitter"></i>Tweet
@@ -259,7 +263,12 @@
                 <network network="googleplus" class="md-button md-google">
                   <i class="fab fa-google-plus"></i> Share
                 </network>
-                <md-button class="md-github" href="https://github.com/creativetimofficial/vue-material-kit" target="_blank"><i class="fab fa-github"></i> Star</md-button>
+                <md-button
+                  class="md-github"
+                  href="https://github.com/creativetimofficial/vue-material-kit"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> Star</md-button
+                >
               </div>
             </social-sharing>
           </div>
